@@ -1,6 +1,6 @@
 # Decodelab-task2-Ujjwal
 SkillForge: Built the Backend
-# 🎓 SkillForge LMS Backend API Engine
+# 🎓 SkillForge: Learning Management System (Backend API Engine)
 
 Built for the SkillForge Learning Management System.
 
@@ -64,9 +64,10 @@ npm run dev
 
 Expected Output:
 
-MongoDB connected
-
-SkillForge Academy API running on port 5000
+```bash
+✅ MongoDB connected
+✅ SkillForge Academy API running on port 5000
+```
 
 ---
 
@@ -113,59 +114,33 @@ SkillForge Academy API running on port 5000
 
 # 🗄 Database Layer
 
-Database: MongoDB
+The backend uses MongoDB with Mongoose ODM to maintain structured relationships between learning resources and student activities.
 
-ODM: Mongoose
+### Collections
 
-Collections:
+- Users
+- Courses
+- Modules
+- Lessons
+- Enrollments
+- Progress
+- Certificates
 
-• Users
-
-• Courses
-
-• Modules
-
-• Lessons
-
-• Enrollments
-
-• Progress
-
-• Certificates
-
+The database design ensures efficient retrieval of course content, learning progress tracking, enrollment management, and certificate generation.
 ---
 
 # 🛠 Technology Stack
 
-Backend Runtime:
+The SkillForge LMS Backend API Engine is powered by a modern JavaScript backend ecosystem designed for scalability, security, and maintainability.
 
-• Node.js
-
-Framework:
-
-• Express.js
-
-Database:
-
-• MongoDB
-
-ODM:
-
-• Mongoose
-
-Authentication:
-
-• JWT
-
-• bcryptjs
-
-Development Tools:
-
-• Nodemon
-
-• dotenv
-
----
+- **Node.js**: Runtime environment for executing server-side JavaScript.
+- **Express.js**: Lightweight web framework used for building RESTful APIs.
+- **MongoDB**: NoSQL database for storing users, courses, lessons, enrollments, and certificates.
+- **Mongoose**: ODM layer used for schema modeling and database interactions.
+- **JWT Authentication**: Secure token-based authentication and route protection.
+- **bcryptjs**: Password hashing and credential security.
+- **dotenv**: Environment configuration management.
+- **Nodemon**: Development utility for automatic server reloading.
 
 # 🔌 REST API Endpoints
 
